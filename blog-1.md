@@ -34,5 +34,5 @@ Here, we created AdminUser type alias by utilising existing User type. I have al
 
 
 ## Final thought
-Some of us probably already familiar with the terms `Union and Intersection` from mathematics or `Set and Vaghn Diagram` to be presice. However, the Union and Intersection type use in typescript are fundamentally different, so you might have trouble like me at the begining. In Set Theory, 
+Some of us probably already familiar with the terms `Union and Intersection` from mathematics or `Set and Vaughn Diagram` to be presice. However, the Union and Intersection type use in typescript are fundamentally different, so you might have trouble like me at the begining. In Set Theory, 
 We use Union to merge to Set, and In typescript we use Intersection to merge two types. The only way to overcome this confusion is practising more and more exersice and take note how code works, what is the equivalent output type you got.
