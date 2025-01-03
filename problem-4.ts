@@ -16,7 +16,7 @@
     const isCircle = (shape: Shape): shape is Circle => {
         return shape.shape === 'circle' ? true : false
     }
-    const isRect = (shape: Shape): shape is Rectangle => {
+    const isRectangle = (shape: Shape): shape is Rectangle => {
         return shape.shape === 'rectangle' ? true : false
     }
 
@@ -25,7 +25,7 @@
             const area = (Math.PI * Math.pow(shape.radius, 2)).toFixed(2);
             return parseFloat(area)
         }
-        else if (isRect(shape)) {
+        else if (isRectangle(shape)) {
             return shape.height * shape.width;
         }
     }
